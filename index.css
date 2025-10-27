@@ -22,20 +22,31 @@ div {
 
 #div2 {
     background-color: blue;
+    position: absolute;
+    bottom: 0px;
+    right: 50%;
     
 }
 
 #div3 {
     background-color: orange;
+    position: relative;
+    left: 20px;
+    bottom: 20px;
     
 }
 
 #div4 {
     background-color: green;
-    
+    position: fixed;
+    top: 0px;
+    right: 0px;
 }
 
 #div5 {
     background-color: purple;
+    position: sticky;
+    top: 100px;
+    left: 400px;
     
 }
